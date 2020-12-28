@@ -86,7 +86,7 @@
 
 - name: Read-write git checkout from github
   git:
-    repo: 'https://github.com/shabrinaiu/DolanKuy-infra.git'
+    repo: 'https://github.com/shabrinaiu/DolanKuy-infrastructure.git'
     dest: /home/deploy/dolankuy
   become: yes
   become_user: deploy
